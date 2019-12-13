@@ -1,0 +1,61 @@
+html, body {
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    text-align: center;
+    margin: 10px;
+    left: 2%;
+  position: absolute;
+  color: black;
+    
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+  color: black;
+    text-align: right;
+    
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+
+#projectRed {
+    width: 40%;
+    padding: 3%;
+    float: left;
+}
+#projectCheck {
+    width: 30%;
+    padding: 3%;
+    padding-right: 13%;
+    float: left;
+}
+
+section {
+    overflow: auto;
+}
+
+.projLang {
+    font-style: italic;
+    font-weight: 300;
+    font-size: .9em;
+     text-align: right;
+}
+
+.projDesc {
+    margin: auto;
+     text-align: right;
+}
+
+#main {
+}

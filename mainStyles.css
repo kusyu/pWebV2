@@ -1,0 +1,85 @@
+html {
+    background-image: linear-gradient( 68.1deg,  rgba(248,205,205,1) -0.3%, rgba(149,170,211,1) 100.7% );
+}
+
+
+
+p>a {
+    font-weight: bold;
+    color: #8080ff;
+}
+
+h1 {
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 400;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 400; 
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5;
+    
+}
+
+
+#homePara {
+    text-align: center;
+    font-size: 2em;
+}
+
+
+#aboutMePic {
+    width: 40%;
+    padding: 3%;
+    float: left;
+
+}
+
+#aboutMeContent{
+    overflow: auto;
+    width: 80%;
+    margin: auto;
+
+}
+
+#projectRed {
+    width: 40%;
+    padding: 3%;
+    float: left;
+}
+#projectCheck {
+    width: 30%;
+    padding: 3%;
+    padding-right: 13%;
+    float: left;
+}
+
+section {
+    overflow: auto;
+}
+
+.projLang {
+    font-style: italic;
+    font-weight: 300;
+    font-size: .9em;
+}
+
+.projDesc {
+    margin: auto;
+    
+}
+
+#contactPara {
+    text-align: center;
+    line-height: 2;
+}

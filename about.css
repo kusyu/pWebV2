@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    text-align: center;
+    margin: 10px;
+    left: 2%;
+  position: absolute;
+  color: black;
+    
+}
+
+
+#aboutMePic {
+    width: 40%;
+    padding: 3%;
+    float: left;
+
+}
+
+#aboutMeContent{
+    overflow: auto;
+    width: 70%;
+    margin: auto;
+
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5;
+    
+}

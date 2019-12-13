@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="programming.css">
+        <link rel="stylesheet" href="navStyles.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700|Playfair+Display+SC:400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <header role="banner">
+            <nav>
+                <ul class = "normal" id = "navBar">
+                    <li><a href="index.html" title="Go to home page">Home</a></li>
+                    <li><a href="aboutMe.html" title="Go to about me page">About Me</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn" title="Go to projects page">Projects<i class="fa fa-caret-down"></i></a>
+                        <div class="dropdown-content">
+                          <a href="projects.html">Programming</a>
+                        </div>
+                    </li>
+                    <li><a href="contact.html" title="Go to contact page">Contact</a></li>
+                    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+                </ul>
+            </nav>
+        </header>
+        <main role="main">
+            <article>
+                <h1>Programming Projects</h1>
+                <div id= "main">
+                    <section>
+                    <h2>2019 - Red's Adventure</h2>
+                    <img src="img/resize.png" alt="Title screen of the game Red's Adventure" id="projectRed">
+                    <p class="projLang">Built using C</p>
+                    <p class="projDesc">A gba game programmed in C and created in mode3(bitmap mode). The game was made in the span of a week, and all assets were handdrawn. A link to download the playable gba file can be <a href="resources/Game.gba">found here!</a></p>
+                </section>
+                
+                <section>
+                    <h2>2019 - Rune Search</h2>
+                    <img src="img/runeSearch.JPG" alt="Title screen of the game Red's Adventure" id="projectRed">
+                    <p class="projLang">Designed UI and helped create assests</p>
+                    <p class="projDesc">A web game described as "half rouge-like and half word search" with the player as a magical goat! The project was led by Will Martin. I helped with designing the UI as well as creating several ascii art assets. Play the game <a href="https://willbmartin.github.io/rune-search/">here!</a></p>
+                </section>
+                
+                <section>
+                    <h2>2018 - Checkers</h2>
+                    <img src="img/check.jpg" alt="Title screen of the game Red's Adventure" id="projectCheck">
+                    <p class="projLang">Built using Javafx</p>
+                    <p class="projDesc">A checkers game programmed using Javafx. The game was part of a larger group project consisting of two games Checkers and Breakout combined in an 'arcade-like' program. I was tasked to do Checkers, and my partner was tasked to do Breakout. </p>
+                </section>
+        
+                </div>
+                
+            </article>
+        </main>
+    </body>
+</html>

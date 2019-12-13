@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="navStyles.css">
+        <link rel="stylesheet" href="home.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700|Playfair+Display+SC:400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    <body>
+        <header role="banner">
+                <nav>
+                    <ul class = "normal" id = "navBar">
+                        <li><a href="index.html" title="Go to home page">Home</a></li>
+                        <li><a href="aboutMe.html" title="Go to about me page">About Me</a></li>
+                        <li class="dropdown">
+                            <a href="javascript:void(0)" class="dropbtn" title="Go to projects page">Projects<i class="fa fa-caret-down"></i></a>
+                            <div class="dropdown-content">
+                              <a href="projects.html">Programming</a>
+                            </div>
+                        </li>
+                        <li><a href="contact.html" title="Go to contact page">Contact</a></li>
+                        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="respondBar()">&#9776;</a>
+                    </ul>
+                </nav>
+            </header>
+        <div id="backImg">
+            <main role="main">
+                <article>
+                    <h1>
+                        Hi there, I'm <div id="changing">Rebekah</div>
+                    </h1>
+                </article>
+            </main>
+        </div>
+        <script type="text/javascript" src="nav.js"></script>
+        <script type="text/javascript" src="home.js"></script>
+        
+    </body>
+</html>

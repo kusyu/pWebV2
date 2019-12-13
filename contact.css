@@ -1,0 +1,24 @@
+#contactPara {
+    text-align: center;
+    line-height: 2;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5;
+    
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    text-align: center;
+    margin: 10px;
+    left: 2%;
+  position: absolute;
+  color: black;
+    
+}
